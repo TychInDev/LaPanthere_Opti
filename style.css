@@ -676,7 +676,7 @@ a[data-lightbox]:hover img {
   background: none;
 }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -689,7 +689,7 @@ a {
   font-family: "helvetica";
   font-weight: 400;
   color: #575757 !important;
-}
+} */
 
 .container {
   max-width: 1000px;
@@ -904,6 +904,7 @@ footer {
 }
 .contact-info p {
   font-size: 1em;
+  color: #373737;
 }
 .contact-info h4,
 .links h4,
