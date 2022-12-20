@@ -894,6 +894,9 @@ footer {
 .contact-info {
   margin-left: -40%;
 }
+.contact-info h4 {
+  color: #373737;
+}
 .links {
   margin-left: -10%;
 }
@@ -926,6 +929,7 @@ footer {
 }
 .links h4 {
   margin-top: auto;
+  color: #373737;
 }
 .links a {
   color: #373737;
@@ -940,6 +944,7 @@ footer {
 }
 .social-media h4 {
   width: 100%;
+  color: #373737;
 }
 .social-media a {
   flex-direction: row;
