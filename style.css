@@ -835,13 +835,13 @@ h2 {
   }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
   .b-parallax {
     background-attachment: scroll;
   }
 }
 
-@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+@media only screen and (min-width: 1024px) and (max-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
   .b-parallax {
     background-attachment: scroll;
   }
@@ -859,10 +859,7 @@ h2 {
     overflow-x: hidden;
     position: relative;
   }
-  .bloc {
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
-  }
+  
   .bloc-group,
   .bloc-group .bloc {
     display: block;
@@ -871,8 +868,6 @@ h2 {
   .bloc-fill-screen .fill-bloc-top-edge,
   .bloc-fill-screen .fill-bloc-bottom-edge {
     padding: 0 20px;
-    padding-left: constant(safe-area-inset-left);
-    padding-right: constant(safe-area-inset-right);
   }
 }
 
@@ -1199,7 +1194,7 @@ footer {
   text-align: center;
 }
 
-.why-lapanthere h4 {
+.why-lapanthere h3 {
   color: #000000;
   font-size: 1.5em;
 }
@@ -1240,3 +1235,59 @@ figcaption {
   color: #000000;
   font-size: 1.5em;
 }
+
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header ul {
+    flex-direction: column;
+  }
+  header li {
+    width: 100%;
+  }
+
+  footer { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+   
+  }
+
+  .logo {
+    margin-left: 40%
+  }
+
+  .contact-info {
+    margin-left: 0;
+  }
+
+  .links {
+    margin-left: 0;
+  }
+
+  .links h4 {
+    margin-top: 1em;
+    margin-left: -1em;
+  }
+
+  .social-media {
+    margin-left: 0;
+  }
+}
+  
