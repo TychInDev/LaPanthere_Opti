@@ -1069,7 +1069,7 @@ header a {
 /** FOOTER **/
 footer {
   background-color: #f3976c;
-  color: #373737;
+  color: #000000;
   padding: 20px 0;
   display: flex;
   align-items: center;
@@ -1105,18 +1105,18 @@ footer {
   margin-left: -10%;
 }
 .contact-info a {
-  color: #373737;
+  color: #000000;
   text-decoration: none;
   font-size: 1.25em;
 }
 .contact-info p {
   font-size: 1em;
-  color: #373737;
+  color: #000000;
 }
 .contact-info h4,
 .links h4,
 .social-media h4 {
-  color: #373737;
+  color: #000000;
   margin-bottom: 10px;
   font-size: 1.25em;
 }
@@ -1133,10 +1133,10 @@ footer {
 }
 .links h4 {
   margin-top: auto;
-  color: #373737;
+  color: #000000;
 }
 .links a {
-  color: #373737;
+  color: #000000;
   text-decoration: none;
   font-size: 1.25em;
 }
@@ -1148,11 +1148,11 @@ footer {
 }
 .social-media h4 {
   width: 100%;
-  color: #373737;
+  color: #000000;
 }
 .social-media a {
   flex-direction: row;
-  color: #373737;
+  color: #000000;
   font-size: 2em;
   margin-right: 10px;
 }
