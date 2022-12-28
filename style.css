@@ -1040,7 +1040,7 @@ header img {
 
 header nav {
   align-items: center;
-  margin-left: 20%;
+  margin-left: 30%;
 }
 
 header ul {
@@ -1186,12 +1186,22 @@ footer {
 .why-lapanthere {
   display:flex;
   flex-direction: column;
-  padding: 16px;
+  justify-content: center;
+  align-content: center;
   background-color: #A3946C;
   width: 50%;
-  margin-left: auto;
-  margin-right: auto;
+  height: auto;
+  margin: auto;
+  padding: 16px;
   text-align: center;
+
+}
+
+.why {
+  display: flex;
+  background-image: url("/img/image-de-presentation.webp");
+  background-size: cover;
+  height: 25em;
 }
 
 .why-lapanthere h3 {
